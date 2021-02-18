@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="logo.png" />
+
+    <title>Twitter Clone JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>Twitter Clone</h1>
+                <div>
+                    <div class="border1"></div>
+                    <div c>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="helpText col-12">
+                        <p id="first">Enter text into the input field to add username to your tweet.</p>
+                        <p id="second">Enter text into the textarea field to add tweet to newsfeed.</p>
+                        <p id="third">Click the <i class="fa fa-retweet icon-retweet"></i> to retweet the tweet.</p>
+                        <p id="fourth">Click the <i class="fa fa-heart icon-like"></i> to like the tweet.</p>
+                    </div>
+                </div>
+
+                <!--user name-->
+                <div class="row">
+                    <div class="col-12">
+                        <label for="usernamee">User Name</label>
+                        <input type="text" class="form-control" id="usernamee" placeholder="username" maxlength="20">
+                    </div>
+                </div>
+
+                <!--tweet-->
+                <div class="row">
+                    <div class="col-12">
+                        <label for="tweett">Tweet</label>
+                        <textarea class="form-control" id="tweett" rows="3" placeholder="tweet..."></textarea>
+                        <div class="charcounter">
+                            <span><span id="charcounterss">0</span>/250</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--submit button-->
+                <div class="row">
+                    <div class="col-12">
+                        <button id="enterbutt">submit</button>
+                    </div>
+                </div>
+
+                <!-- Empty container -->
+                <div class="row">
+                    <div class="listItems col-12">
+                        <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <script type="text/javascript" src="twitter.js"></script>
+</body>
+
+</html>

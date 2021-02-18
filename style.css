@@ -1,0 +1,161 @@
+body {
+	background: #04bf68;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51df51;
+
+}
+
+#third {
+	color: #df0950;
+	
+}
+
+#fourth {
+	color: hsl(236, 86%, 45%);
+	margin-bottom: 30px;
+}
+
+
+#enterbutt {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #04bf1d;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enterbutt:hover{
+	background-color: #028f31;
+	color: #FFCD5D;
+}
+
+.retweet {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin-right: 10px;
+	color: #04bf1d;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+.retweet:hover{
+	background-color: #028f31;
+	color: #FFCD5D;
+}
+
+.like {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #04bf1d;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+textarea{
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+span {
+	color:#025F70;
+	
+}
+
+label {
+	color:#1a0270;
+	
+}
+
+.charcounter {
+	float:inline-start;
+}
+
+.icon-retweet{
+	color: hsl(236, 86%, 45%);
+}
+
+.icon-like{
+	color:red;
+}
+
+.tweet-color{
+	color:rgb(236, 16, 225);
+}
